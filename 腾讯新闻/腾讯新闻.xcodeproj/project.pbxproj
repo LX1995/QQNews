@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA7B9C3BCA6340054758FC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD227984E620BE3441E96201 /* libPods.a */; };
+		E98287F31D337220008C0304 /* ChannelUnitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E98287ED1D337220008C0304 /* ChannelUnitModel.m */; };
+		E98287F41D337220008C0304 /* LRLChannelEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98287EF1D337220008C0304 /* LRLChannelEditController.m */; };
+		E98287F51D337220008C0304 /* LRLChannelEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98287F01D337220008C0304 /* LRLChannelEditController.xib */; };
+		E98287F61D337220008C0304 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E98287F21D337220008C0304 /* TouchView.m */; };
+		E98287FA1D337856008C0304 /* MineHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98287F81D337856008C0304 /* MineHeaderTableViewCell.m */; };
+		E98287FB1D337856008C0304 /* MineHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98287F91D337856008C0304 /* MineHeaderTableViewCell.xib */; };
+		E9AE5E1C1D2F54C900ED982B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E1B1D2F54C900ED982B /* main.m */; };
+		E9AE5E1F1D2F54C900ED982B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E1E1D2F54C900ED982B /* AppDelegate.m */; };
+		E9AE5E221D2F54C900ED982B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E211D2F54C900ED982B /* ViewController.m */; };
+		E9AE5E251D2F54C900ED982B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AE5E231D2F54C900ED982B /* Main.storyboard */; };
+		E9AE5E271D2F54C900ED982B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AE5E261D2F54C900ED982B /* Assets.xcassets */; };
+		E9AE5E2A1D2F54C900ED982B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AE5E281D2F54C900ED982B /* LaunchScreen.storyboard */; };
+		E9AE5E3C1D2F84C200ED982B /* RootTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E3B1D2F84C200ED982B /* RootTabbarController.m */; };
+		E9AE5E3F1D2F851500ED982B /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E3E1D2F851500ED982B /* RootNavigationController.m */; };
+		E9AE5E4D1D2F867100ED982B /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E4C1D2F867100ED982B /* RecommendViewController.m */; };
+		E9AE5E501D2F867900ED982B /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E4F1D2F867900ED982B /* LiveViewController.m */; };
+		E9AE5E531D2F868000ED982B /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E521D2F868000ED982B /* MeViewController.m */; };
+		E9AE5E5E1D2F933300ED982B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E561D2F933300ED982B /* UIView+Frame.m */; };
+		E9AE5E5F1D2F933300ED982B /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E581D2F933300ED982B /* YZDisplayTitleLabel.m */; };
+		E9AE5E601D2F933300ED982B /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E5A1D2F933300ED982B /* YZDisplayViewController.m */; };
+		E9AE5E611D2F933300ED982B /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E5D1D2F933300ED982B /* YZFlowLayout.m */; };
+		E9AE5E651D2F97A500ED982B /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E641D2F97A500ED982B /* News.m */; };
+		E9AE5E6C1D2F98FA00ED982B /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E671D2F98FA00ED982B /* HeaderTableViewCell.m */; };
+		E9AE5E6D1D2F98FA00ED982B /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AE5E681D2F98FA00ED982B /* HeaderTableViewCell.xib */; };
+		E9AE5E6E1D2F98FA00ED982B /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5E6A1D2F98FA00ED982B /* NewsTableViewCell.m */; };
+		E9AE5E6F1D2F98FA00ED982B /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AE5E6B1D2F98FA00ED982B /* NewsTableViewCell.xib */; };
+		E9B695FD1D34BBC400AEF863 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B695FC1D34BBC400AEF863 /* ChildViewController.m */; };
+		E9BCD8551D332997004E78F4 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD8541D332997004E78F4 /* NewsViewController.m */; };
+		E9BCD86E1D333532004E78F4 /* JiangsuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD86D1D333532004E78F4 /* JiangsuViewController.m */; };
+		E9BCD8711D33385D004E78F4 /* NanjingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD8701D33385D004E78F4 /* NanjingViewController.m */; };
+		E9BCD8741D333D76004E78F4 /* YaowenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD8731D333D76004E78F4 /* YaowenViewController.m */; };
+		E9BCD8771D334310004E78F4 /* ShehuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD8761D334310004E78F4 /* ShehuiViewController.m */; };
+		E9BCD87A1D33437E004E78F4 /* ShishangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD8791D33437E004E78F4 /* ShishangViewController.m */; };
+		E9BCD8801D33439A004E78F4 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD87F1D33439A004E78F4 /* CarViewController.m */; };
+		E9BCD8831D334417004E78F4 /* KejiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BCD8821D334417004E78F4 /* KejiViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4C21ECFC10D8995940CC4AF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BD227984E620BE3441E96201 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFCBC302AEABEAD2E7DA9BC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E98287EC1D337220008C0304 /* ChannelUnitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelUnitModel.h; sourceTree = "<group>"; };
+		E98287ED1D337220008C0304 /* ChannelUnitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelUnitModel.m; sourceTree = "<group>"; };
+		E98287EE1D337220008C0304 /* LRLChannelEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLChannelEditController.h; sourceTree = "<group>"; };
+		E98287EF1D337220008C0304 /* LRLChannelEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLChannelEditController.m; sourceTree = "<group>"; };
+		E98287F01D337220008C0304 /* LRLChannelEditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRLChannelEditController.xib; sourceTree = "<group>"; };
+		E98287F11D337220008C0304 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		E98287F21D337220008C0304 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		E98287F71D337856008C0304 /* MineHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineHeaderTableViewCell.h; sourceTree = "<group>"; };
+		E98287F81D337856008C0304 /* MineHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineHeaderTableViewCell.m; sourceTree = "<group>"; };
+		E98287F91D337856008C0304 /* MineHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		E9AE5E171D2F54C900ED982B /* 腾讯新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "腾讯新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AE5E1B1D2F54C900ED982B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9AE5E1D1D2F54C900ED982B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		E9AE5E1E1D2F54C900ED982B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		E9AE5E201D2F54C900ED982B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		E9AE5E211D2F54C900ED982B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		E9AE5E241D2F54C900ED982B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9AE5E261D2F54C900ED982B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		E9AE5E291D2F54C900ED982B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9AE5E2B1D2F54C900ED982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		E9AE5E3A1D2F84C200ED982B /* RootTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabbarController.h; sourceTree = "<group>"; };
+		E9AE5E3B1D2F84C200ED982B /* RootTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabbarController.m; sourceTree = "<group>"; };
+		E9AE5E3D1D2F851500ED982B /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		E9AE5E3E1D2F851500ED982B /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		E9AE5E4B1D2F867100ED982B /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		E9AE5E4C1D2F867100ED982B /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		E9AE5E4E1D2F867900ED982B /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		E9AE5E4F1D2F867900ED982B /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		E9AE5E511D2F868000ED982B /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		E9AE5E521D2F868000ED982B /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		E9AE5E551D2F933300ED982B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E9AE5E561D2F933300ED982B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E9AE5E571D2F933300ED982B /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		E9AE5E581D2F933300ED982B /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		E9AE5E591D2F933300ED982B /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		E9AE5E5A1D2F933300ED982B /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		E9AE5E5B1D2F933300ED982B /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		E9AE5E5C1D2F933300ED982B /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
+		E9AE5E5D1D2F933300ED982B /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		E9AE5E631D2F97A500ED982B /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		E9AE5E641D2F97A500ED982B /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		E9AE5E661D2F98FA00ED982B /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
+		E9AE5E671D2F98FA00ED982B /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
+		E9AE5E681D2F98FA00ED982B /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		E9AE5E691D2F98FA00ED982B /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		E9AE5E6A1D2F98FA00ED982B /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		E9AE5E6B1D2F98FA00ED982B /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		E9B695FB1D34BBC400AEF863 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		E9B695FC1D34BBC400AEF863 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		E9BCD8531D332997004E78F4 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = ../NewsViewController.h; sourceTree = "<group>"; };
+		E9BCD8541D332997004E78F4 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
+		E9BCD86C1D333532004E78F4 /* JiangsuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JiangsuViewController.h; path = ../JiangsuViewController.h; sourceTree = "<group>"; };
+		E9BCD86D1D333532004E78F4 /* JiangsuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JiangsuViewController.m; path = ../JiangsuViewController.m; sourceTree = "<group>"; };
+		E9BCD86F1D33385D004E78F4 /* NanjingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NanjingViewController.h; path = ../NanjingViewController.h; sourceTree = "<group>"; };
+		E9BCD8701D33385D004E78F4 /* NanjingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NanjingViewController.m; path = ../NanjingViewController.m; sourceTree = "<group>"; };
+		E9BCD8721D333D76004E78F4 /* YaowenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YaowenViewController.h; path = ../../YaowenViewController.h; sourceTree = "<group>"; };
+		E9BCD8731D333D76004E78F4 /* YaowenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YaowenViewController.m; path = ../../YaowenViewController.m; sourceTree = "<group>"; };
+		E9BCD8751D334310004E78F4 /* ShehuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShehuiViewController.h; path = ../../ShehuiViewController.h; sourceTree = "<group>"; };
+		E9BCD8761D334310004E78F4 /* ShehuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShehuiViewController.m; path = ../../ShehuiViewController.m; sourceTree = "<group>"; };
+		E9BCD8781D33437E004E78F4 /* ShishangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShishangViewController.h; path = ../ShishangViewController.h; sourceTree = "<group>"; };
+		E9BCD8791D33437E004E78F4 /* ShishangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShishangViewController.m; path = ../ShishangViewController.m; sourceTree = "<group>"; };
+		E9BCD87E1D33439A004E78F4 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarViewController.h; path = ../CarViewController.h; sourceTree = "<group>"; };
+		E9BCD87F1D33439A004E78F4 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarViewController.m; path = ../CarViewController.m; sourceTree = "<group>"; };
+		E9BCD8811D334417004E78F4 /* KejiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KejiViewController.h; path = ../KejiViewController.h; sourceTree = "<group>"; };
+		E9BCD8821D334417004E78F4 /* KejiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KejiViewController.m; path = ../KejiViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9AE5E141D2F54C900ED982B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA7B9C3BCA6340054758FC0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112E7C67798004D8F3DFDAF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAFCBC302AEABEAD2E7DA9BC /* Pods.debug.xcconfig */,
+				A4C21ECFC10D8995940CC4AF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4600DFFC2E2481594D934652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD227984E620BE3441E96201 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E98287EA1D336F7E008C0304 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		E98287EB1D337220008C0304 /* LRLChannelEdit */ = {
+			isa = PBXGroup;
+			children = (
+				E98287EC1D337220008C0304 /* ChannelUnitModel.h */,
+				E98287ED1D337220008C0304 /* ChannelUnitModel.m */,
+				E98287EE1D337220008C0304 /* LRLChannelEditController.h */,
+				E98287EF1D337220008C0304 /* LRLChannelEditController.m */,
+				E98287F01D337220008C0304 /* LRLChannelEditController.xib */,
+				E98287F11D337220008C0304 /* TouchView.h */,
+				E98287F21D337220008C0304 /* TouchView.m */,
+			);
+			path = LRLChannelEdit;
+			sourceTree = "<group>";
+		};
+		E9AE5E0E1D2F54C900ED982B = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E191D2F54C900ED982B /* 腾讯新闻 */,
+				E9AE5E181D2F54C900ED982B /* Products */,
+				112E7C67798004D8F3DFDAF7 /* Pods */,
+				4600DFFC2E2481594D934652 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9AE5E181D2F54C900ED982B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E171D2F54C900ED982B /* 腾讯新闻.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9AE5E191D2F54C900ED982B /* 腾讯新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				E9B695FA1D34BBA900AEF863 /* Controller */,
+				E9AE5E621D2F979300ED982B /* Model */,
+				E9AE5E371D2F820100ED982B /* Tool */,
+				E9AE5E311D2F7C9100ED982B /* Class */,
+				E9AE5E321D2F7C9100ED982B /* Other */,
+				E9AE5E1A1D2F54C900ED982B /* Supporting Files */,
+			);
+			path = "腾讯新闻";
+			sourceTree = "<group>";
+		};
+		E9AE5E1A1D2F54C900ED982B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E1B1D2F54C900ED982B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9AE5E311D2F7C9100ED982B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E351D2F7CE900ED982B /* News */,
+				E9AE5E361D2F7CE900ED982B /* Recommend */,
+				E9AE5E331D2F7CE900ED982B /* Live */,
+				E9AE5E341D2F7CE900ED982B /* Me */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E9AE5E321D2F7C9100ED982B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E98287EA1D336F7E008C0304 /* Sorting */,
+				E9AE5E381D2F844100ED982B /* Navigation */,
+				E9AE5E391D2F844100ED982B /* Tabbar */,
+				E9AE5E1D1D2F54C900ED982B /* AppDelegate.h */,
+				E9AE5E1E1D2F54C900ED982B /* AppDelegate.m */,
+				E9AE5E201D2F54C900ED982B /* ViewController.h */,
+				E9AE5E211D2F54C900ED982B /* ViewController.m */,
+				E9AE5E231D2F54C900ED982B /* Main.storyboard */,
+				E9AE5E261D2F54C900ED982B /* Assets.xcassets */,
+				E9AE5E281D2F54C900ED982B /* LaunchScreen.storyboard */,
+				E9AE5E2B1D2F54C900ED982B /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E9AE5E331D2F7CE900ED982B /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E461D2F863600ED982B /* Controller */,
+				E9AE5E471D2F863600ED982B /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		E9AE5E341D2F7CE900ED982B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E441D2F862F00ED982B /* Controller */,
+				E9AE5E451D2F862F00ED982B /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		E9AE5E351D2F7CE900ED982B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E401D2F861700ED982B /* Controller */,
+				E9AE5E411D2F861700ED982B /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		E9AE5E361D2F7CE900ED982B /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E421D2F862700ED982B /* Controller */,
+				E9AE5E431D2F862700ED982B /* View */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		E9AE5E371D2F820100ED982B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E98287EB1D337220008C0304 /* LRLChannelEdit */,
+				E9AE5E541D2F933300ED982B /* YZDisplayViewController */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E9AE5E381D2F844100ED982B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E3D1D2F851500ED982B /* RootNavigationController.h */,
+				E9AE5E3E1D2F851500ED982B /* RootNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E9AE5E391D2F844100ED982B /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E3A1D2F84C200ED982B /* RootTabbarController.h */,
+				E9AE5E3B1D2F84C200ED982B /* RootTabbarController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		E9AE5E401D2F861700ED982B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9BCD8531D332997004E78F4 /* NewsViewController.h */,
+				E9BCD8541D332997004E78F4 /* NewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9AE5E411D2F861700ED982B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E661D2F98FA00ED982B /* HeaderTableViewCell.h */,
+				E9AE5E671D2F98FA00ED982B /* HeaderTableViewCell.m */,
+				E9AE5E681D2F98FA00ED982B /* HeaderTableViewCell.xib */,
+				E9AE5E691D2F98FA00ED982B /* NewsTableViewCell.h */,
+				E9AE5E6A1D2F98FA00ED982B /* NewsTableViewCell.m */,
+				E9AE5E6B1D2F98FA00ED982B /* NewsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9AE5E421D2F862700ED982B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E4B1D2F867100ED982B /* RecommendViewController.h */,
+				E9AE5E4C1D2F867100ED982B /* RecommendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9AE5E431D2F862700ED982B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9AE5E441D2F862F00ED982B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E511D2F868000ED982B /* MeViewController.h */,
+				E9AE5E521D2F868000ED982B /* MeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9AE5E451D2F862F00ED982B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E98287F71D337856008C0304 /* MineHeaderTableViewCell.h */,
+				E98287F81D337856008C0304 /* MineHeaderTableViewCell.m */,
+				E98287F91D337856008C0304 /* MineHeaderTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9AE5E461D2F863600ED982B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E4E1D2F867900ED982B /* LiveViewController.h */,
+				E9AE5E4F1D2F867900ED982B /* LiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9AE5E471D2F863600ED982B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9AE5E541D2F933300ED982B /* YZDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E551D2F933300ED982B /* UIView+Frame.h */,
+				E9AE5E561D2F933300ED982B /* UIView+Frame.m */,
+				E9AE5E571D2F933300ED982B /* YZDisplayTitleLabel.h */,
+				E9AE5E581D2F933300ED982B /* YZDisplayTitleLabel.m */,
+				E9AE5E591D2F933300ED982B /* YZDisplayViewController.h */,
+				E9AE5E5A1D2F933300ED982B /* YZDisplayViewController.m */,
+				E9AE5E5B1D2F933300ED982B /* YZDisplayViewHeader.h */,
+				E9AE5E5C1D2F933300ED982B /* YZFlowLayout.h */,
+				E9AE5E5D1D2F933300ED982B /* YZFlowLayout.m */,
+			);
+			path = YZDisplayViewController;
+			sourceTree = "<group>";
+		};
+		E9AE5E621D2F979300ED982B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE5E631D2F97A500ED982B /* News.h */,
+				E9AE5E641D2F97A500ED982B /* News.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9B695FA1D34BBA900AEF863 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9BCD86C1D333532004E78F4 /* JiangsuViewController.h */,
+				E9BCD86D1D333532004E78F4 /* JiangsuViewController.m */,
+				E9BCD8781D33437E004E78F4 /* ShishangViewController.h */,
+				E9BCD8791D33437E004E78F4 /* ShishangViewController.m */,
+				E9BCD87E1D33439A004E78F4 /* CarViewController.h */,
+				E9BCD87F1D33439A004E78F4 /* CarViewController.m */,
+				E9BCD86F1D33385D004E78F4 /* NanjingViewController.h */,
+				E9BCD8701D33385D004E78F4 /* NanjingViewController.m */,
+				E9BCD8721D333D76004E78F4 /* YaowenViewController.h */,
+				E9BCD8731D333D76004E78F4 /* YaowenViewController.m */,
+				E9BCD8751D334310004E78F4 /* ShehuiViewController.h */,
+				E9BCD8761D334310004E78F4 /* ShehuiViewController.m */,
+				E9BCD8811D334417004E78F4 /* KejiViewController.h */,
+				E9BCD8821D334417004E78F4 /* KejiViewController.m */,
+				E9B695FB1D34BBC400AEF863 /* ChildViewController.h */,
+				E9B695FC1D34BBC400AEF863 /* ChildViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9AE5E161D2F54C900ED982B /* 腾讯新闻 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AE5E2E1D2F54C900ED982B /* Build configuration list for PBXNativeTarget "腾讯新闻" */;
+			buildPhases = (
+				DEF5A7863291D7513F52F5F1 /* Check Pods Manifest.lock */,
+				E9AE5E131D2F54C900ED982B /* Sources */,
+				E9AE5E141D2F54C900ED982B /* Frameworks */,
+				E9AE5E151D2F54C900ED982B /* Resources */,
+				00FC364AC9DF46EB51AE449F /* Embed Pods Frameworks */,
+				7D09B72999354673C63A7E39 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "腾讯新闻";
+			productName = "腾讯新闻";
+			productReference = E9AE5E171D2F54C900ED982B /* 腾讯新闻.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9AE5E0F1D2F54C900ED982B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李想";
+				TargetAttributes = {
+					E9AE5E161D2F54C900ED982B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E9AE5E121D2F54C900ED982B /* Build configuration list for PBXProject "腾讯新闻" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9AE5E0E1D2F54C900ED982B;
+			productRefGroup = E9AE5E181D2F54C900ED982B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9AE5E161D2F54C900ED982B /* 腾讯新闻 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9AE5E151D2F54C900ED982B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98287F51D337220008C0304 /* LRLChannelEditController.xib in Resources */,
+				E98287FB1D337856008C0304 /* MineHeaderTableViewCell.xib in Resources */,
+				E9AE5E6D1D2F98FA00ED982B /* HeaderTableViewCell.xib in Resources */,
+				E9AE5E2A1D2F54C900ED982B /* LaunchScreen.storyboard in Resources */,
+				E9AE5E271D2F54C900ED982B /* Assets.xcassets in Resources */,
+				E9AE5E251D2F54C900ED982B /* Main.storyboard in Resources */,
+				E9AE5E6F1D2F98FA00ED982B /* NewsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FC364AC9DF46EB51AE449F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D09B72999354673C63A7E39 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF5A7863291D7513F52F5F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9AE5E131D2F54C900ED982B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AE5E531D2F868000ED982B /* MeViewController.m in Sources */,
+				E9BCD8741D333D76004E78F4 /* YaowenViewController.m in Sources */,
+				E9AE5E221D2F54C900ED982B /* ViewController.m in Sources */,
+				E9AE5E3C1D2F84C200ED982B /* RootTabbarController.m in Sources */,
+				E9AE5E4D1D2F867100ED982B /* RecommendViewController.m in Sources */,
+				E9AE5E6C1D2F98FA00ED982B /* HeaderTableViewCell.m in Sources */,
+				E9BCD8771D334310004E78F4 /* ShehuiViewController.m in Sources */,
+				E9AE5E5F1D2F933300ED982B /* YZDisplayTitleLabel.m in Sources */,
+				E9AE5E1F1D2F54C900ED982B /* AppDelegate.m in Sources */,
+				E9BCD8801D33439A004E78F4 /* CarViewController.m in Sources */,
+				E9AE5E611D2F933300ED982B /* YZFlowLayout.m in Sources */,
+				E9BCD87A1D33437E004E78F4 /* ShishangViewController.m in Sources */,
+				E98287F41D337220008C0304 /* LRLChannelEditController.m in Sources */,
+				E98287FA1D337856008C0304 /* MineHeaderTableViewCell.m in Sources */,
+				E9AE5E651D2F97A500ED982B /* News.m in Sources */,
+				E9BCD8831D334417004E78F4 /* KejiViewController.m in Sources */,
+				E9AE5E3F1D2F851500ED982B /* RootNavigationController.m in Sources */,
+				E98287F61D337220008C0304 /* TouchView.m in Sources */,
+				E98287F31D337220008C0304 /* ChannelUnitModel.m in Sources */,
+				E9BCD86E1D333532004E78F4 /* JiangsuViewController.m in Sources */,
+				E9AE5E601D2F933300ED982B /* YZDisplayViewController.m in Sources */,
+				E9BCD8711D33385D004E78F4 /* NanjingViewController.m in Sources */,
+				E9BCD8551D332997004E78F4 /* NewsViewController.m in Sources */,
+				E9B695FD1D34BBC400AEF863 /* ChildViewController.m in Sources */,
+				E9AE5E501D2F867900ED982B /* LiveViewController.m in Sources */,
+				E9AE5E5E1D2F933300ED982B /* UIView+Frame.m in Sources */,
+				E9AE5E6E1D2F98FA00ED982B /* NewsTableViewCell.m in Sources */,
+				E9AE5E1C1D2F54C900ED982B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9AE5E231D2F54C900ED982B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9AE5E241D2F54C900ED982B /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E9AE5E281D2F54C900ED982B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9AE5E291D2F54C900ED982B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9AE5E2C1D2F54C900ED982B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9AE5E2D1D2F54C900ED982B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9AE5E2F1D2F54C900ED982B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFCBC302AEABEAD2E7DA9BC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "腾讯新闻/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.QQNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9AE5E301D2F54C900ED982B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C21ECFC10D8995940CC4AF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "腾讯新闻/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LX.QQNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9AE5E121D2F54C900ED982B /* Build configuration list for PBXProject "腾讯新闻" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AE5E2C1D2F54C900ED982B /* Debug */,
+				E9AE5E2D1D2F54C900ED982B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AE5E2E1D2F54C900ED982B /* Build configuration list for PBXNativeTarget "腾讯新闻" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AE5E2F1D2F54C900ED982B /* Debug */,
+				E9AE5E301D2F54C900ED982B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9AE5E0F1D2F54C900ED982B /* Project object */;
+}
